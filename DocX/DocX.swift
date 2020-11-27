@@ -5,7 +5,11 @@
 //  Created by Mahmut Şahin on 27.11.2020.
 //
 
-public final class DocX {
+public class DocX {
+    
+    init(_ name: String) {
+        self.name = name
+    }
 
     let name = "DocX"
     
