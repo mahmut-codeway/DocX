@@ -13,6 +13,7 @@
 		C74EC5BA2570F22B003FB05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74EC5B82570F22B003FB05C /* Main.storyboard */; };
 		C74EC5BC2570F22D003FB05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74EC5BB2570F22D003FB05C /* Assets.xcassets */; };
 		C74EC5BF2570F22D003FB05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74EC5BD2570F22D003FB05C /* LaunchScreen.storyboard */; };
+		C74EC5CB257102D7003FB05C /* DocX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74EC5CA257102D7003FB05C /* DocX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C74EC5BB2570F22D003FB05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C74EC5BE2570F22D003FB05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C74EC5C02570F22D003FB05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74EC5CA257102D7003FB05C /* DocX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				C74EC5A32570F1EC003FB05C /* DocX.h */,
 				C74EC5A42570F1EC003FB05C /* Info.plist */,
+				C74EC5CA257102D7003FB05C /* DocX.swift */,
 			);
 			path = DocX;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					C74EC59F2570F1EC003FB05C = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					C74EC5AF2570F22B003FB05C = {
 						CreatedOnToolsVersion = 12.2;
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74EC5CB257102D7003FB05C /* DocX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +360,7 @@
 		C74EC5A92570F1EC003FB05C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GUXSG6H5G2;
@@ -371,6 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutsahin.DocX;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,6 +386,7 @@
 		C74EC5AA2570F1EC003FB05C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GUXSG6H5G2;
