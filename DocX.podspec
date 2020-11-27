@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SwiftyDocx"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "DocX creates .docx file from string"
   spec.description  = <<-DESC
 	This library helps you create docx file and share.
