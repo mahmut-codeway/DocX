@@ -5,16 +5,9 @@
 //  Created by Mahmut Şahin on 27.11.2020.
 //
 
-public class DocX {
+extension NSString {
     
-    init(_ name: String) {
-        self.name = name
+    var mahmut: NSString {
+        return "Mahmut"
     }
-
-    let name = "DocX"
-    
-    public func printOut() {
-        print("aaaaaa success")
-    }
-    
 }
