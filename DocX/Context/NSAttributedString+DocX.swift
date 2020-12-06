@@ -7,7 +7,7 @@
 
 import AEXML
 import Foundation
-import ZipArchive
+import SSZipArchive
 
 extension NSAttributedString: DocX {
     @objc public func writeDocX(to url: URL) throws {

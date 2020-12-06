@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE1A0A4387ADFE3881F393E6 /* Pods_DocX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD583CA7EA0A19A5E3491B4 /* Pods_DocX.framework */; };
 		C74EC5A52570F1EC003FB05C /* DocX.h in Headers */ = {isa = PBXBuildFile; fileRef = C74EC5A32570F1EC003FB05C /* DocX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7CA3115257CF10800404E4A /* AttributeElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3107257CF10800404E4A /* AttributeElements.swift */; };
 		C7CA3116257CF10800404E4A /* NSUnderlineStyle+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3108257CF10800404E4A /* NSUnderlineStyle+Elements.swift */; };
@@ -23,12 +24,12 @@
 		C7CA3121257CF10800404E4A /* blank in Resources */ = {isa = PBXBuildFile; fileRef = C7CA3113257CF10800404E4A /* blank */; };
 		C7CA3122257CF10800404E4A /* LinkRelationShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3114257CF10800404E4A /* LinkRelationShip.swift */; };
 		C7CA3125257CF26100404E4A /* DocXManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3124257CF26100404E4A /* DocXManager.swift */; };
-		C7CA3146257CFC0300404E4A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3145257CFC0300404E4A /* Service.swift */; };
-		C7CA3152257CFDA200404E4A /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = C7CA3151257CFDA200404E4A /* SwiftPackageProductDependency */; };
-		C7CA3156257CFDB500404E4A /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = C7CA3155257CFDB500404E4A /* SwiftPackageProductDependency */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CD583CA7EA0A19A5E3491B4 /* Pods_DocX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551D4BF4739512FFDE3C24F4 /* Pods-DocX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocX.release.xcconfig"; path = "Target Support Files/Pods-DocX/Pods-DocX.release.xcconfig"; sourceTree = "<group>"; };
+		A88F5671416E1EC929B62BFC /* Pods-DocX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocX.debug.xcconfig"; path = "Target Support Files/Pods-DocX/Pods-DocX.debug.xcconfig"; sourceTree = "<group>"; };
 		C74EC5A02570F1EC003FB05C /* DocX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DocX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74EC5A32570F1EC003FB05C /* DocX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocX.h; sourceTree = "<group>"; };
 		C74EC5A42570F1EC003FB05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		C7CA3113257CF10800404E4A /* blank */ = {isa = PBXFileReference; lastKnownFileType = folder; path = blank; sourceTree = "<group>"; };
 		C7CA3114257CF10800404E4A /* LinkRelationShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkRelationShip.swift; sourceTree = "<group>"; };
 		C7CA3124257CF26100404E4A /* DocXManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocXManager.swift; sourceTree = "<group>"; };
-		C7CA3145257CFC0300404E4A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,19 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CA3152257CFDA200404E4A /* BuildFile in Frameworks */,
-				C7CA3156257CFDB500404E4A /* BuildFile in Frameworks */,
+				BE1A0A4387ADFE3881F393E6 /* Pods_DocX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36332B89B0E1162DC624148E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A88F5671416E1EC929B62BFC /* Pods-DocX.debug.xcconfig */,
+				551D4BF4739512FFDE3C24F4 /* Pods-DocX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		46EEB1218434676774589D2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CD583CA7EA0A19A5E3491B4 /* Pods_DocX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C74EC5962570F1EC003FB05C = {
 			isa = PBXGroup;
 			children = (
 				C74EC5A22570F1EC003FB05C /* DocX */,
 				C74EC5A12570F1EC003FB05C /* Products */,
+				36332B89B0E1162DC624148E /* Pods */,
+				46EEB1218434676774589D2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +104,6 @@
 				C74EC5A32570F1EC003FB05C /* DocX.h */,
 				C74EC5A42570F1EC003FB05C /* Info.plist */,
 				C7CA3124257CF26100404E4A /* DocXManager.swift */,
-				C7CA3145257CFC0300404E4A /* Service.swift */,
 			);
 			path = DocX;
 			sourceTree = "<group>";
@@ -130,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C74EC5A82570F1EC003FB05C /* Build configuration list for PBXNativeTarget "DocX" */;
 			buildPhases = (
+				23BE8B9EFAF8C9413FD2E9B2 /* [CP] Check Pods Manifest.lock */,
 				C74EC59B2570F1EC003FB05C /* Headers */,
 				C74EC59C2570F1EC003FB05C /* Sources */,
 				C74EC59D2570F1EC003FB05C /* Frameworks */,
@@ -140,10 +158,6 @@
 			dependencies = (
 			);
 			name = DocX;
-			packageProductDependencies = (
-				C7CA3151257CFDA200404E4A /* SwiftPackageProductDependency */,
-				C7CA3155257CFDB500404E4A /* SwiftPackageProductDependency */,
-			);
 			productName = DocX;
 			productReference = C74EC5A02570F1EC003FB05C /* DocX.framework */;
 			productType = "com.apple.product-type.framework";
@@ -172,10 +186,6 @@
 				Base,
 			);
 			mainGroup = C74EC5962570F1EC003FB05C;
-			packageReferences = (
-				C7CA3150257CFDA100404E4A /* RemoteSwiftPackageReference */,
-				C7CA3154257CFDB500404E4A /* RemoteSwiftPackageReference */,
-			);
 			productRefGroup = C74EC5A12570F1EC003FB05C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -196,6 +206,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23BE8B9EFAF8C9413FD2E9B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C74EC59C2570F1EC003FB05C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,7 +238,6 @@
 			files = (
 				C7CA311A257CF10800404E4A /* DocumentRoot.swift in Sources */,
 				C7CA311E257CF10800404E4A /* NSParagraphStyle+Elements.swift in Sources */,
-				C7CA3146257CFC0300404E4A /* Service.swift in Sources */,
 				C7CA311C257CF10800404E4A /* NSAttributedString+DocX.swift in Sources */,
 				C7CA3122257CF10800404E4A /* LinkRelationShip.swift in Sources */,
 				C7CA311D257CF10800404E4A /* PlatformSpesific-iOS.swift in Sources */,
@@ -346,6 +380,7 @@
 		};
 		C74EC5A92570F1EC003FB05C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88F5671416E1EC929B62BFC /* Pods-DocX.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -373,6 +408,7 @@
 		};
 		C74EC5AA2570F1EC003FB05C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551D4BF4739512FFDE3C24F4 /* Pods-DocX.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -419,38 +455,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		C7CA3150257CFDA100404E4A /* RemoteSwiftPackageReference */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/shinjukunian/AEXML.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		C7CA3154257CFDB500404E4A /* RemoteSwiftPackageReference */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/victor-pavlychko/ZipArchive.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		C7CA3151257CFDA200404E4A /* SwiftPackageProductDependency */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7CA3150257CFDA100404E4A /* RemoteSwiftPackageReference */;
-			productName = AEXML;
-		};
-		C7CA3155257CFDB500404E4A /* SwiftPackageProductDependency */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7CA3154257CFDB500404E4A /* RemoteSwiftPackageReference */;
-			productName = ZipArchive;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C74EC5972570F1EC003FB05C /* Project object */;
 }

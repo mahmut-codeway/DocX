@@ -14,8 +14,4 @@ public class DocXManager {
     public static func createDocX(_ attributedText: NSAttributedString,_ fileUrl: URL) {
         try? attributedText.writeDocX(to: fileUrl)
     }
-    
-    public static func someS() -> String {
-        return Service.doSomeStuff()
-    }
 }
