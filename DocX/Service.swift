@@ -11,7 +11,8 @@ public class Service {
     
     private init() {}
     
-    public static func doSomething() -> String {
-        return "Did Some Stuff"
+    public static func doSomeStuff() -> String {
+        return "SomeStuff"
     }
+    
 }

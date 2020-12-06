@@ -3,19 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C74EC5A52570F1EC003FB05C /* DocX.h in Headers */ = {isa = PBXBuildFile; fileRef = C74EC5A32570F1EC003FB05C /* DocX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7CA30A3257CEA0F00404E4A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA30A2257CEA0F00404E4A /* Service.swift */; };
+		C7CA3115257CF10800404E4A /* AttributeElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3107257CF10800404E4A /* AttributeElements.swift */; };
+		C7CA3116257CF10800404E4A /* NSUnderlineStyle+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3108257CF10800404E4A /* NSUnderlineStyle+Elements.swift */; };
+		C7CA3117257CF10800404E4A /* ParagraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3109257CF10800404E4A /* ParagraphElement.swift */; };
+		C7CA3118257CF10800404E4A /* RubyAnnotationElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA310A257CF10800404E4A /* RubyAnnotationElement.swift */; };
+		C7CA3119257CF10800404E4A /* NSAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA310B257CF10800404E4A /* NSAttributedString+Extensions.swift */; };
+		C7CA311A257CF10800404E4A /* DocumentRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA310C257CF10800404E4A /* DocumentRoot.swift */; };
+		C7CA311B257CF10800404E4A /* DocXWriting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA310D257CF10800404E4A /* DocXWriting.swift */; };
+		C7CA311C257CF10800404E4A /* NSAttributedString+DocX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA310E257CF10800404E4A /* NSAttributedString+DocX.swift */; };
+		C7CA311D257CF10800404E4A /* PlatformSpesific-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA310F257CF10800404E4A /* PlatformSpesific-iOS.swift */; };
+		C7CA311E257CF10800404E4A /* NSParagraphStyle+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3110257CF10800404E4A /* NSParagraphStyle+Elements.swift */; };
+		C7CA311F257CF10800404E4A /* FontElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3111257CF10800404E4A /* FontElements.swift */; };
+		C7CA3120257CF10800404E4A /* DocX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3112257CF10800404E4A /* DocX.swift */; };
+		C7CA3121257CF10800404E4A /* blank in Resources */ = {isa = PBXBuildFile; fileRef = C7CA3113257CF10800404E4A /* blank */; };
+		C7CA3122257CF10800404E4A /* LinkRelationShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3114257CF10800404E4A /* LinkRelationShip.swift */; };
+		C7CA3125257CF26100404E4A /* DocXManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3124257CF26100404E4A /* DocXManager.swift */; };
+		C7CA3146257CFC0300404E4A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3145257CFC0300404E4A /* Service.swift */; };
+		C7CA3152257CFDA200404E4A /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = C7CA3151257CFDA200404E4A /* SwiftPackageProductDependency */; };
+		C7CA3156257CFDB500404E4A /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = C7CA3155257CFDB500404E4A /* SwiftPackageProductDependency */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C74EC5A02570F1EC003FB05C /* DocX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DocX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74EC5A32570F1EC003FB05C /* DocX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocX.h; sourceTree = "<group>"; };
 		C74EC5A42570F1EC003FB05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7CA30A2257CEA0F00404E4A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C7CA3107257CF10800404E4A /* AttributeElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeElements.swift; sourceTree = "<group>"; };
+		C7CA3108257CF10800404E4A /* NSUnderlineStyle+Elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUnderlineStyle+Elements.swift"; sourceTree = "<group>"; };
+		C7CA3109257CF10800404E4A /* ParagraphElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParagraphElement.swift; sourceTree = "<group>"; };
+		C7CA310A257CF10800404E4A /* RubyAnnotationElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubyAnnotationElement.swift; sourceTree = "<group>"; };
+		C7CA310B257CF10800404E4A /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		C7CA310C257CF10800404E4A /* DocumentRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentRoot.swift; sourceTree = "<group>"; };
+		C7CA310D257CF10800404E4A /* DocXWriting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocXWriting.swift; sourceTree = "<group>"; };
+		C7CA310E257CF10800404E4A /* NSAttributedString+DocX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+DocX.swift"; sourceTree = "<group>"; };
+		C7CA310F257CF10800404E4A /* PlatformSpesific-iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlatformSpesific-iOS.swift"; sourceTree = "<group>"; };
+		C7CA3110257CF10800404E4A /* NSParagraphStyle+Elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSParagraphStyle+Elements.swift"; sourceTree = "<group>"; };
+		C7CA3111257CF10800404E4A /* FontElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontElements.swift; sourceTree = "<group>"; };
+		C7CA3112257CF10800404E4A /* DocX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocX.swift; sourceTree = "<group>"; };
+		C7CA3113257CF10800404E4A /* blank */ = {isa = PBXFileReference; lastKnownFileType = folder; path = blank; sourceTree = "<group>"; };
+		C7CA3114257CF10800404E4A /* LinkRelationShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkRelationShip.swift; sourceTree = "<group>"; };
+		C7CA3124257CF26100404E4A /* DocXManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocXManager.swift; sourceTree = "<group>"; };
+		C7CA3145257CFC0300404E4A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CA3152257CFDA200404E4A /* BuildFile in Frameworks */,
+				C7CA3156257CFDB500404E4A /* BuildFile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,11 +82,34 @@
 		C74EC5A22570F1EC003FB05C /* DocX */ = {
 			isa = PBXGroup;
 			children = (
+				C7CA3106257CF0FA00404E4A /* Context */,
 				C74EC5A32570F1EC003FB05C /* DocX.h */,
 				C74EC5A42570F1EC003FB05C /* Info.plist */,
-				C7CA30A2257CEA0F00404E4A /* Service.swift */,
+				C7CA3124257CF26100404E4A /* DocXManager.swift */,
+				C7CA3145257CFC0300404E4A /* Service.swift */,
 			);
 			path = DocX;
+			sourceTree = "<group>";
+		};
+		C7CA3106257CF0FA00404E4A /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				C7CA3107257CF10800404E4A /* AttributeElements.swift */,
+				C7CA3113257CF10800404E4A /* blank */,
+				C7CA310C257CF10800404E4A /* DocumentRoot.swift */,
+				C7CA3112257CF10800404E4A /* DocX.swift */,
+				C7CA310D257CF10800404E4A /* DocXWriting.swift */,
+				C7CA3111257CF10800404E4A /* FontElements.swift */,
+				C7CA3114257CF10800404E4A /* LinkRelationShip.swift */,
+				C7CA310E257CF10800404E4A /* NSAttributedString+DocX.swift */,
+				C7CA310B257CF10800404E4A /* NSAttributedString+Extensions.swift */,
+				C7CA3110257CF10800404E4A /* NSParagraphStyle+Elements.swift */,
+				C7CA3108257CF10800404E4A /* NSUnderlineStyle+Elements.swift */,
+				C7CA3109257CF10800404E4A /* ParagraphElement.swift */,
+				C7CA310F257CF10800404E4A /* PlatformSpesific-iOS.swift */,
+				C7CA310A257CF10800404E4A /* RubyAnnotationElement.swift */,
+			);
+			path = Context;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,10 @@
 			dependencies = (
 			);
 			name = DocX;
+			packageProductDependencies = (
+				C7CA3151257CFDA200404E4A /* SwiftPackageProductDependency */,
+				C7CA3155257CFDB500404E4A /* SwiftPackageProductDependency */,
+			);
 			productName = DocX;
 			productReference = C74EC5A02570F1EC003FB05C /* DocX.framework */;
 			productType = "com.apple.product-type.framework";
@@ -111,6 +172,10 @@
 				Base,
 			);
 			mainGroup = C74EC5962570F1EC003FB05C;
+			packageReferences = (
+				C7CA3150257CFDA100404E4A /* RemoteSwiftPackageReference */,
+				C7CA3154257CFDB500404E4A /* RemoteSwiftPackageReference */,
+			);
 			productRefGroup = C74EC5A12570F1EC003FB05C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CA3121257CF10800404E4A /* blank in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +201,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CA30A3257CEA0F00404E4A /* Service.swift in Sources */,
+				C7CA311A257CF10800404E4A /* DocumentRoot.swift in Sources */,
+				C7CA311E257CF10800404E4A /* NSParagraphStyle+Elements.swift in Sources */,
+				C7CA3146257CFC0300404E4A /* Service.swift in Sources */,
+				C7CA311C257CF10800404E4A /* NSAttributedString+DocX.swift in Sources */,
+				C7CA3122257CF10800404E4A /* LinkRelationShip.swift in Sources */,
+				C7CA311D257CF10800404E4A /* PlatformSpesific-iOS.swift in Sources */,
+				C7CA3118257CF10800404E4A /* RubyAnnotationElement.swift in Sources */,
+				C7CA311F257CF10800404E4A /* FontElements.swift in Sources */,
+				C7CA3119257CF10800404E4A /* NSAttributedString+Extensions.swift in Sources */,
+				C7CA3117257CF10800404E4A /* ParagraphElement.swift in Sources */,
+				C7CA3125257CF26100404E4A /* DocXManager.swift in Sources */,
+				C7CA3120257CF10800404E4A /* DocX.swift in Sources */,
+				C7CA3115257CF10800404E4A /* AttributeElements.swift in Sources */,
+				C7CA311B257CF10800404E4A /* DocXWriting.swift in Sources */,
+				C7CA3116257CF10800404E4A /* NSUnderlineStyle+Elements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +419,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7CA3150257CFDA100404E4A /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shinjukunian/AEXML.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C7CA3154257CFDB500404E4A /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/victor-pavlychko/ZipArchive.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7CA3151257CFDA200404E4A /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7CA3150257CFDA100404E4A /* RemoteSwiftPackageReference */;
+			productName = AEXML;
+		};
+		C7CA3155257CFDB500404E4A /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7CA3154257CFDB500404E4A /* RemoteSwiftPackageReference */;
+			productName = ZipArchive;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C74EC5972570F1EC003FB05C /* Project object */;
 }
