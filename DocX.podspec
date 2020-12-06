@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DocX"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "DocX creates .docx file from string"
   spec.description  = <<-DESC
 	This library helps you create docx file and share.

@@ -8,37 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C74EC5A52570F1EC003FB05C /* DocX.h in Headers */ = {isa = PBXBuildFile; fileRef = C74EC5A32570F1EC003FB05C /* DocX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C74EC5B32570F22B003FB05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74EC5B22570F22B003FB05C /* AppDelegate.swift */; };
-		C74EC5B72570F22B003FB05C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74EC5B62570F22B003FB05C /* ViewController.swift */; };
-		C74EC5BA2570F22B003FB05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74EC5B82570F22B003FB05C /* Main.storyboard */; };
-		C74EC5BC2570F22D003FB05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74EC5BB2570F22D003FB05C /* Assets.xcassets */; };
-		C74EC5BF2570F22D003FB05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74EC5BD2570F22D003FB05C /* LaunchScreen.storyboard */; };
-		C74EC5CB257102D7003FB05C /* DocX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74EC5CA257102D7003FB05C /* DocX.swift */; };
+		C7CA30A3257CEA0F00404E4A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA30A2257CEA0F00404E4A /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C74EC5A02570F1EC003FB05C /* DocX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DocX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74EC5A32570F1EC003FB05C /* DocX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocX.h; sourceTree = "<group>"; };
 		C74EC5A42570F1EC003FB05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C74EC5B02570F22B003FB05C /* DocXExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocXExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C74EC5B22570F22B003FB05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C74EC5B62570F22B003FB05C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C74EC5B92570F22B003FB05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C74EC5BB2570F22D003FB05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C74EC5BE2570F22D003FB05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C74EC5C02570F22D003FB05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C74EC5CA257102D7003FB05C /* DocX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocX.swift; sourceTree = "<group>"; };
+		C7CA30A2257CEA0F00404E4A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C74EC59D2570F1EC003FB05C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C74EC5AD2570F22B003FB05C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				C74EC5A22570F1EC003FB05C /* DocX */,
-				C74EC5B12570F22B003FB05C /* DocXExample */,
 				C74EC5A12570F1EC003FB05C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				C74EC5A02570F1EC003FB05C /* DocX.framework */,
-				C74EC5B02570F22B003FB05C /* DocXExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,22 +50,9 @@
 			children = (
 				C74EC5A32570F1EC003FB05C /* DocX.h */,
 				C74EC5A42570F1EC003FB05C /* Info.plist */,
-				C74EC5CA257102D7003FB05C /* DocX.swift */,
+				C7CA30A2257CEA0F00404E4A /* Service.swift */,
 			);
 			path = DocX;
-			sourceTree = "<group>";
-		};
-		C74EC5B12570F22B003FB05C /* DocXExample */ = {
-			isa = PBXGroup;
-			children = (
-				C74EC5B22570F22B003FB05C /* AppDelegate.swift */,
-				C74EC5B62570F22B003FB05C /* ViewController.swift */,
-				C74EC5B82570F22B003FB05C /* Main.storyboard */,
-				C74EC5BB2570F22D003FB05C /* Assets.xcassets */,
-				C74EC5BD2570F22D003FB05C /* LaunchScreen.storyboard */,
-				C74EC5C02570F22D003FB05C /* Info.plist */,
-			);
-			path = DocXExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,23 +87,6 @@
 			productReference = C74EC5A02570F1EC003FB05C /* DocX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C74EC5AF2570F22B003FB05C /* DocXExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C74EC5C12570F22D003FB05C /* Build configuration list for PBXNativeTarget "DocXExample" */;
-			buildPhases = (
-				C74EC5AC2570F22B003FB05C /* Sources */,
-				C74EC5AD2570F22B003FB05C /* Frameworks */,
-				C74EC5AE2570F22B003FB05C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DocXExample;
-			productName = DocXExample;
-			productReference = C74EC5B02570F22B003FB05C /* DocXExample.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,9 +99,6 @@
 					C74EC59F2570F1EC003FB05C = {
 						CreatedOnToolsVersion = 12.2;
 						LastSwiftMigration = 1220;
-					};
-					C74EC5AF2570F22B003FB05C = {
-						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -170,7 +116,6 @@
 			projectRoot = "";
 			targets = (
 				C74EC59F2570F1EC003FB05C /* DocX */,
-				C74EC5AF2570F22B003FB05C /* DocXExample */,
 			);
 		};
 /* End PBXProject section */
@@ -183,16 +128,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C74EC5AE2570F22B003FB05C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C74EC5BF2570F22D003FB05C /* LaunchScreen.storyboard in Resources */,
-				C74EC5BC2570F22D003FB05C /* Assets.xcassets in Resources */,
-				C74EC5BA2570F22B003FB05C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -200,39 +135,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74EC5CB257102D7003FB05C /* DocX.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C74EC5AC2570F22B003FB05C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C74EC5B72570F22B003FB05C /* ViewController.swift in Sources */,
-				C74EC5B32570F22B003FB05C /* AppDelegate.swift in Sources */,
+				C7CA30A3257CEA0F00404E4A /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C74EC5B82570F22B003FB05C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C74EC5B92570F22B003FB05C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C74EC5BD2570F22D003FB05C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C74EC5BE2570F22D003FB05C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C74EC5A62570F1EC003FB05C /* Debug */ = {
@@ -408,44 +315,6 @@
 			};
 			name = Release;
 		};
-		C74EC5C22570F22D003FB05C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GUXSG6H5G2;
-				INFOPLIST_FILE = DocXExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutsahin.DocXExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C74EC5C32570F22D003FB05C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GUXSG6H5G2;
-				INFOPLIST_FILE = DocXExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutsahin.DocXExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,15 +332,6 @@
 			buildConfigurations = (
 				C74EC5A92570F1EC003FB05C /* Debug */,
 				C74EC5AA2570F1EC003FB05C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C74EC5C12570F22D003FB05C /* Build configuration list for PBXNativeTarget "DocXExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C74EC5C22570F22D003FB05C /* Debug */,
-				C74EC5C32570F22D003FB05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
