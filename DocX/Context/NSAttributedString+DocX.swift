@@ -18,7 +18,7 @@ extension NSAttributedString: DocX {
         }
 
         let docURL = tempURL.appendingPathComponent(UUID().uuidString, isDirectory: true)
-        guard let blankURL = Bundle.main.url(forResource: "blank", withExtension: nil) else { throw DocXSavingErrors.noBlankDocument }
+        guard let blankURL = Bundle.module.url(forResource: "blank", withExtension: nil) else { throw DocXSavingErrors.noBlankDocument }
         try FileManager.default.copyItem(at: blankURL, to: docURL)
 
         let docPath = docURL.appendingPathComponent("word").appendingPathComponent("document").appendingPathExtension("xml")
