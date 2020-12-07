@@ -24,7 +24,6 @@
 		C7CA3121257CF10800404E4A /* blank in Resources */ = {isa = PBXBuildFile; fileRef = C7CA3113257CF10800404E4A /* blank */; };
 		C7CA3122257CF10800404E4A /* LinkRelationShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3114257CF10800404E4A /* LinkRelationShip.swift */; };
 		C7CA3125257CF26100404E4A /* DocXManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3124257CF26100404E4A /* DocXManager.swift */; };
-		C7CA3206257DF5AE00404E4A /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3205257DF5AE00404E4A /* Bundle+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		C7CA3113257CF10800404E4A /* blank */ = {isa = PBXFileReference; lastKnownFileType = folder; path = blank; sourceTree = "<group>"; };
 		C7CA3114257CF10800404E4A /* LinkRelationShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkRelationShip.swift; sourceTree = "<group>"; };
 		C7CA3124257CF26100404E4A /* DocXManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocXManager.swift; sourceTree = "<group>"; };
-		C7CA3205257DF5AE00404E4A /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +125,6 @@
 				C7CA3109257CF10800404E4A /* ParagraphElement.swift */,
 				C7CA310F257CF10800404E4A /* PlatformSpesific-iOS.swift */,
 				C7CA310A257CF10800404E4A /* RubyAnnotationElement.swift */,
-				C7CA3205257DF5AE00404E4A /* Bundle+Extension.swift */,
 			);
 			path = Context;
 			sourceTree = "<group>";
@@ -240,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7CA311A257CF10800404E4A /* DocumentRoot.swift in Sources */,
-				C7CA3206257DF5AE00404E4A /* Bundle+Extension.swift in Sources */,
 				C7CA311E257CF10800404E4A /* NSParagraphStyle+Elements.swift in Sources */,
 				C7CA311C257CF10800404E4A /* NSAttributedString+DocX.swift in Sources */,
 				C7CA3122257CF10800404E4A /* LinkRelationShip.swift in Sources */,

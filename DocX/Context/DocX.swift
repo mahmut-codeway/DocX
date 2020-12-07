@@ -11,6 +11,7 @@ import Foundation
 enum DocXSavingErrors: Error {
     case noBlankDocument
     case compressionFailed
+    case noBundle
 }
 
 protocol DocX {
