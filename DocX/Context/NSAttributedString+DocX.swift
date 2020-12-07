@@ -18,8 +18,10 @@ extension NSAttributedString: DocX {
         }
 
         let docURL = tempURL.appendingPathComponent(UUID().uuidString, isDirectory: true)
-        guard let bundle = Bundle(identifier: "org.cocoapods.Pods-DocX") else { throw DocXSavingErrors.noBundle }
-        guard let blankURL = bundle.url(forResource: "blank", withExtension: nil) else { throw DocXSavingErrors.noBlankDocument }
+        let bundle = Bundle(for: self.classForCoder)
+        guard let blankURL = bundle.url(forResource: "blank", withExtension: nil) else {
+            throw DocXSavingErrors.noBlankDocument
+        }
         try FileManager.default.copyItem(at: blankURL, to: docURL)
 
         let docPath = docURL.appendingPathComponent("word").appendingPathComponent("document").appendingPathExtension("xml")
@@ -44,4 +46,5 @@ extension NSAttributedString: DocX {
 
         try FileManager.default.copyItem(at: zipURL, to: url)
     }
+    
 }
