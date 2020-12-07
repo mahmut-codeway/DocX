@@ -18,8 +18,7 @@ extension NSAttributedString: DocX {
         }
 
         let docURL = tempURL.appendingPathComponent(UUID().uuidString, isDirectory: true)
-        let bundle = Bundle(for: self.classForCoder)
-        guard let blankURL = bundle.url(forResource: "blank", withExtension: nil) else {
+        guard let blankURL = Bundle(for: DocumentRoot.self).url(forResource: "blank", withExtension: nil) else {
             throw DocXSavingErrors.noBlankDocument
         }
         try FileManager.default.copyItem(at: blankURL, to: docURL)

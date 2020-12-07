@@ -21,9 +21,15 @@
 		C7CA311E257CF10800404E4A /* NSParagraphStyle+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3110257CF10800404E4A /* NSParagraphStyle+Elements.swift */; };
 		C7CA311F257CF10800404E4A /* FontElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3111257CF10800404E4A /* FontElements.swift */; };
 		C7CA3120257CF10800404E4A /* DocX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3112257CF10800404E4A /* DocX.swift */; };
-		C7CA3121257CF10800404E4A /* blank in Resources */ = {isa = PBXBuildFile; fileRef = C7CA3113257CF10800404E4A /* blank */; };
 		C7CA3122257CF10800404E4A /* LinkRelationShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3114257CF10800404E4A /* LinkRelationShip.swift */; };
 		C7CA3125257CF26100404E4A /* DocXManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA3124257CF26100404E4A /* DocXManager.swift */; };
+		C7D39A46257E5A0F0062A7AD /* [Content_Types].xml in Resources */ = {isa = PBXBuildFile; fileRef = C7D39A3A257E5A0F0062A7AD /* [Content_Types].xml */; };
+		C7D39A47257E5A0F0062A7AD /* app.xml in Resources */ = {isa = PBXBuildFile; fileRef = C7D39A3C257E5A0F0062A7AD /* app.xml */; };
+		C7D39A48257E5A0F0062A7AD /* meta.xml in Resources */ = {isa = PBXBuildFile; fileRef = C7D39A3D257E5A0F0062A7AD /* meta.xml */; };
+		C7D39A49257E5A0F0062A7AD /* core.xml in Resources */ = {isa = PBXBuildFile; fileRef = C7D39A3E257E5A0F0062A7AD /* core.xml */; };
+		C7D39A4A257E5A0F0062A7AD /* .rels in Resources */ = {isa = PBXBuildFile; fileRef = C7D39A40257E5A0F0062A7AD /* .rels */; };
+		C7D39A4B257E5A0F0062A7AD /* theme1.xml in Resources */ = {isa = PBXBuildFile; fileRef = C7D39A43257E5A0F0062A7AD /* theme1.xml */; };
+		C7D39A4C257E5A0F0062A7AD /* document.xml.rels in Resources */ = {isa = PBXBuildFile; fileRef = C7D39A45257E5A0F0062A7AD /* document.xml.rels */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +51,15 @@
 		C7CA3110257CF10800404E4A /* NSParagraphStyle+Elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSParagraphStyle+Elements.swift"; sourceTree = "<group>"; };
 		C7CA3111257CF10800404E4A /* FontElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontElements.swift; sourceTree = "<group>"; };
 		C7CA3112257CF10800404E4A /* DocX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocX.swift; sourceTree = "<group>"; };
-		C7CA3113257CF10800404E4A /* blank */ = {isa = PBXFileReference; lastKnownFileType = folder; path = blank; sourceTree = "<group>"; };
 		C7CA3114257CF10800404E4A /* LinkRelationShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkRelationShip.swift; sourceTree = "<group>"; };
 		C7CA3124257CF26100404E4A /* DocXManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocXManager.swift; sourceTree = "<group>"; };
+		C7D39A3A257E5A0F0062A7AD /* [Content_Types].xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "[Content_Types].xml"; sourceTree = "<group>"; };
+		C7D39A3C257E5A0F0062A7AD /* app.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = app.xml; sourceTree = "<group>"; };
+		C7D39A3D257E5A0F0062A7AD /* meta.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = meta.xml; sourceTree = "<group>"; };
+		C7D39A3E257E5A0F0062A7AD /* core.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = core.xml; sourceTree = "<group>"; };
+		C7D39A40257E5A0F0062A7AD /* .rels */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = .rels; sourceTree = "<group>"; };
+		C7D39A43257E5A0F0062A7AD /* theme1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = theme1.xml; sourceTree = "<group>"; };
+		C7D39A45257E5A0F0062A7AD /* document.xml.rels */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = document.xml.rels; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +123,8 @@
 		C7CA3106257CF0FA00404E4A /* Context */ = {
 			isa = PBXGroup;
 			children = (
+				C7D39A39257E5A0F0062A7AD /* blank */,
 				C7CA3107257CF10800404E4A /* AttributeElements.swift */,
-				C7CA3113257CF10800404E4A /* blank */,
 				C7CA310C257CF10800404E4A /* DocumentRoot.swift */,
 				C7CA3112257CF10800404E4A /* DocX.swift */,
 				C7CA310D257CF10800404E4A /* DocXWriting.swift */,
@@ -127,6 +139,60 @@
 				C7CA310A257CF10800404E4A /* RubyAnnotationElement.swift */,
 			);
 			path = Context;
+			sourceTree = "<group>";
+		};
+		C7D39A39257E5A0F0062A7AD /* blank */ = {
+			isa = PBXGroup;
+			children = (
+				C7D39A3A257E5A0F0062A7AD /* [Content_Types].xml */,
+				C7D39A3B257E5A0F0062A7AD /* docProps */,
+				C7D39A3F257E5A0F0062A7AD /* _rels */,
+				C7D39A41257E5A0F0062A7AD /* word */,
+			);
+			path = blank;
+			sourceTree = "<group>";
+		};
+		C7D39A3B257E5A0F0062A7AD /* docProps */ = {
+			isa = PBXGroup;
+			children = (
+				C7D39A3C257E5A0F0062A7AD /* app.xml */,
+				C7D39A3D257E5A0F0062A7AD /* meta.xml */,
+				C7D39A3E257E5A0F0062A7AD /* core.xml */,
+			);
+			path = docProps;
+			sourceTree = "<group>";
+		};
+		C7D39A3F257E5A0F0062A7AD /* _rels */ = {
+			isa = PBXGroup;
+			children = (
+				C7D39A40257E5A0F0062A7AD /* .rels */,
+			);
+			path = _rels;
+			sourceTree = "<group>";
+		};
+		C7D39A41257E5A0F0062A7AD /* word */ = {
+			isa = PBXGroup;
+			children = (
+				C7D39A42257E5A0F0062A7AD /* theme */,
+				C7D39A44257E5A0F0062A7AD /* _rels */,
+			);
+			path = word;
+			sourceTree = "<group>";
+		};
+		C7D39A42257E5A0F0062A7AD /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				C7D39A43257E5A0F0062A7AD /* theme1.xml */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		C7D39A44257E5A0F0062A7AD /* _rels */ = {
+			isa = PBXGroup;
+			children = (
+				C7D39A45257E5A0F0062A7AD /* document.xml.rels */,
+			);
+			path = _rels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +266,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CA3121257CF10800404E4A /* blank in Resources */,
+				C7D39A49257E5A0F0062A7AD /* core.xml in Resources */,
+				C7D39A4B257E5A0F0062A7AD /* theme1.xml in Resources */,
+				C7D39A48257E5A0F0062A7AD /* meta.xml in Resources */,
+				C7D39A46257E5A0F0062A7AD /* [Content_Types].xml in Resources */,
+				C7D39A47257E5A0F0062A7AD /* app.xml in Resources */,
+				C7D39A4C257E5A0F0062A7AD /* document.xml.rels in Resources */,
+				C7D39A4A257E5A0F0062A7AD /* .rels in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
