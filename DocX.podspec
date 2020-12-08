@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DocX"
-  spec.version      = "0.0.15"
+  spec.version      = "0.0.16"
   spec.summary      = "DocX creates .docx file from string"
   spec.description  = <<-DESC
 	This library helps you create docx file and share.
@@ -12,7 +12,6 @@ Pod::Spec.new do |spec|
   spec.author	     = { "Mahmut Şahin" => "mahmut@codeway.co" }
   spec.source        = { :http => "https://storage.googleapis.com/cdw-ios-bin/DocX/v1.0.0/DocX.zip" }
 
-  spec.source_files  = "DocX/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   spec.ios.deployment_target = "12.0"
